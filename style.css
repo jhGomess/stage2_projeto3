@@ -9,6 +9,8 @@
   font-size: 62.5%; /* 1rem = 10px */
 
   --page-color: #2c2b3d;
+  --primary-color: #00bfa6;
+  --paragraph-color: #c2c2c2;
 }
 
 body {
@@ -17,6 +19,7 @@ body {
 
   width: 109rem;
   margin-inline: auto;
+  text-align: center;
 
   background-color: var(--page-color);
 }
@@ -40,19 +43,38 @@ ul li a {
   text-decoration: none;
 
   color: white;
+
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
 }
 
 main {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 
   margin: 10rem 0rem 15rem;
 }
 
-main h1 {
+section h1 {
+  font-size: 3.6rem;
+  line-height: 4rem;
+
+  color: white;
+
+  margin-bottom: 6rem;
 }
 
-main p {
+section h1 span {
+  color: var(--primary-color);
+}
+
+section p {
   font-family: "Open Sans", sans-serif;
+
+  color: var(--paragraph-color);
+}
+
+section p span {
+  color: var(--primary-color);
 }
