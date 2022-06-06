@@ -39,7 +39,7 @@ ul {
   list-style: none;
 }
 
-ul li a {
+a {
   text-decoration: none;
 
   color: white;
@@ -87,4 +87,27 @@ section p {
 section p span {
   color: var(--primary-color);
   font-weight: bold;
+}
+
+footer .line {
+  width: 56.8rem;
+  border: 1px solid var(--primary-color);
+
+  margin-inline: auto;
+}
+
+footer p {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+
+  color: white;
+
+  margin-block: 2.5rem;
+}
+
+.balls {
+  position: fixed;
+  bottom: 2rem;
+  left: 1rem;
 }
