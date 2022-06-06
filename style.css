@@ -13,6 +13,7 @@
 
 body {
   font-size: 1.6rem;
+  font-family: "JetBrains Mono", monospace;
 
   width: 109rem;
   margin-inline: auto;
@@ -24,9 +25,34 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  margin-top: 7rem;
 }
 
 ul {
   display: flex;
   gap: 6.4rem;
+
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 10rem 0rem 15rem;
+}
+
+main h1 {
+}
+
+main p {
+  font-family: "Open Sans", sans-serif;
 }
