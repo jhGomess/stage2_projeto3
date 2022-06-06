@@ -69,12 +69,22 @@ section h1 span {
   color: var(--primary-color);
 }
 
+section .text {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
 section p {
   font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
 
   color: var(--paragraph-color);
 }
 
 section p span {
   color: var(--primary-color);
+  font-weight: bold;
 }
