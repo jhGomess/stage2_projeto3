@@ -7,8 +7,12 @@
 
 :root {
   font-size: 62, 5%; /* 1rem = 10px */
+
+  --page-color: #2c2b3d;
 }
 
 body {
   font-size: 1.6rem;
+
+  background-color: var(--page-color);
 }
